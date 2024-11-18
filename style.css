@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content:end ;
+    background-color:aquamarine;
+    
+}
+
+nav ul li a{
+color: #fff;
+letter-spacing: 0.1rem;
+}
+
+.menu li{
+    padding: 35px;
+}
+nav ul li a:hover{
+    color: #ffd385;
+    text-decoration: underline;
+}
+.home{
+    width: 600px;
+    border:none;
+    border-width: 3px;
+    padding: 20px;
+    background-color: gray;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+width: 500;
+}
+.avatar{
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+}
+video{
+    width: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+.about ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about {
+    background-color: darkviolet;
+}
+ #Work{
+    display: flex;
+    align-items: center;
+flex-direction: row;
+border:dashed;
+border-radius: 35px;
+padding: 20px;
+margin: 50px;
+border-color: red;
+}
+.tableau{
+    border: double;
+    width: 300px;
+} 
+.tableau th{
+    height: 10px;
+    text-align: center;
+}
+.tableau td {
+    text-align: center;
+    color: darkgreen;
+
+}
+h3{
+    margin: 30px;
+
+}
+#Contact p{
+    font-family: "Doto", sans-serif;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+}
